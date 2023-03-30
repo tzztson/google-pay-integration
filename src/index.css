@@ -7,6 +7,30 @@ body {
   padding: 0;
 }
 
+.silver-background {
+  background: linear-gradient(135deg, #AFB4B8 29.61%, #C6CBD0 42.49%, #CFD4D9 51.08%, #AFB4B8 72.54%);
+}
+
+.rose-background {
+  background: linear-gradient(135deg, #C38769 14.65%, #FFC8A4 50.71%, #C38769 85.35%);
+}
+
+.gold-background {
+  background: linear-gradient(315deg, #D1BB74 -2297%, #EFDFA0 -1590%, #D1BB74 -883%);
+}
+
+.yellow-background {
+  background: linear-gradient(135deg, #D1BB74 293%, #EFDFA0 1000%, #D1BB74 1707%);
+}
+
+.silverrose-background {
+  background: linear-gradient(315deg, #C38769 -497%, #FFC8A4 224.14%, #C38769 917%);
+}
+
+.silveryellow-background {
+  background: linear-gradient(315deg, #D1BB74 -1397%, #EFDFA0 -690%, #D1BB74 17%);
+}
+
 #menu-toggle {
   display: none;
 }
@@ -33,12 +57,12 @@ body {
   margin-top: 8px;
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button::before {
+#menu-toggle:checked+.menu-button-container .menu-button::before {
   margin-top: 0px;
   transform: rotate(405deg);
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button::after {
+#menu-toggle:checked+.menu-button-container .menu-button::after {
   margin-top: 0px;
   transform: rotate(-405deg);
 }

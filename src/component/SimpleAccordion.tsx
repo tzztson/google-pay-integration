@@ -14,7 +14,7 @@ const SimpleAccordion = ({ title, content }: any) => {
                 {isOpen ? <img src={accordionPlus} alt="" /> : <img src={accordionMinus} alt="" />}
             </div>
             {isOpen ? <div className="flex flex-col gap-2">
-                {content.map((item: any, index: any) => <p className="font-light" key={`${item}-${index}`}>{item}</p>)}
+                {content.map((item: any, index: any) => <p className="font-light" key={`${item}${index}`}>{item}</p>)}
             </div> : ""}
         </div>
     )

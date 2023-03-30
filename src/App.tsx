@@ -13,6 +13,7 @@ import Shop from './pages/Shop';
 import ContactUs from './pages/ContactUs';
 import NotFound from './pages/NotFound';
 import LayoutHeader from './component/LayoutHeader';
+import LayoutFooter from './component/LayoutFooter';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <Route path="/contact" element={<ContactUs />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
+          <LayoutFooter />
         </Router>
       </DarkProvider>
     </div>
