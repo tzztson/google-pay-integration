@@ -12,12 +12,14 @@ import About from './pages/About';
 import Shop from './pages/Shop';
 import ContactUs from './pages/ContactUs';
 import NotFound from './pages/NotFound';
+import LayoutHeader from './component/LayoutHeader';
 
 function App() {
   return (
     <div>
       <DarkProvider>
         <Router>
+          <LayoutHeader />
           <Routes>
             {/* <Route
               path="/"
