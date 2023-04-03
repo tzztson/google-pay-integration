@@ -89,7 +89,7 @@ const About = () => {
                                 <p className="font-semibold text-3xl text-center">Get Our Latest Update In Your Email</p>
                                 <p className="font-light text-md text-center">Subscribe Now To Get 15% Off On Any Product</p>
                             </div>
-                            <div className="relative flex flex-col gap-4 w-1/2">
+                            <div className="relative flex flex-col gap-4 w-1/2 max-md:w-full">
                                 <input type="text" className="outline-none w-full pl-12 pr-6 text-[#CFCFCF] text-xl py-2 rounded" />
                                 <img src={mail_icon} className="absolute w-6 h-6 top-1/2 left-4 -translate-y-1/2" alt="" />
                             </div>
