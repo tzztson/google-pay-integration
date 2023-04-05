@@ -31,6 +31,14 @@ body {
   background: linear-gradient(315deg, #D1BB74 -1397%, #EFDFA0 -690%, #D1BB74 17%);
 }
 
+.subscribe-image {
+  background-image: url("../src/assets/img/png/subscribe.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+  background-position: right center;
+}
+
 #menu-toggle {
   display: none;
 }
