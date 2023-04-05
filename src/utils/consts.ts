@@ -18,6 +18,17 @@ import About_Jewelry_3 from "../assets/img/svg/about-jewelry-3.svg";
 import Contact_Phone from "../assets/img/svg/contact-phone.svg";
 import Contact_Mail from "../assets/img/svg/contact-mail.svg";
 import Contact_Map from "../assets/img/svg/contact-map.svg";
+import Home_Jewelry_Woman1 from "../assets/img/svg/home-jewelry-woman1.svg";
+import Home_Jewelry_Woman2 from "../assets/img/svg/home-jewelry-woman2.svg";
+import Subscribe from "../assets/img/svg/subscribe.svg";
+import Jewelry_Box from "../assets/img/svg/jewelry-box.svg";
+import Jewelry_Flower from "../assets/img/svg/jewelry-flower.svg";
+import Jewelry_Handcraft from "../assets/img/svg/jewelry-handcraft.svg";
+import MEN_Jewelry from "../assets/img/svg/men-jewelry.svg";
+import WOMEN_Jewelry from "../assets/img/svg/women-jewelry.svg";
+import Home_Model1 from "../assets/img/svg/home-model1.svg";
+import Home_Model2 from "../assets/img/svg/home-model2.svg";
+import Home_Model3 from "../assets/img/svg/home-model3.svg";
 
 export const Products = [
   {
@@ -79,6 +90,7 @@ export const Treasures = [
 ];
 
 export {
+  jewelry,
   mail_icon,
   logo_jewelry,
   FaceBook,
@@ -98,4 +110,15 @@ export {
   Contact_Phone,
   Contact_Map,
   Contact_Mail,
+  Home_Jewelry_Woman1,
+  Home_Jewelry_Woman2,
+  Subscribe,
+  Jewelry_Box,
+  Jewelry_Flower,
+  Jewelry_Handcraft,
+  MEN_Jewelry,
+  WOMEN_Jewelry,
+  Home_Model1,
+  Home_Model2,
+  Home_Model3,
 };
