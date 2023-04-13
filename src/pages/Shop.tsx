@@ -81,12 +81,12 @@ const Shop = () => {
                 </div>
                 <div className="flex-[1_1_70%]">
                     <div className="grid grid-cols-3 gap-4">
-                        {Treasures.map((item, ind) => <JewelryItem key={`jewelry${ind}`} image={item.image} name={item.name} price={item.price} />)}
+                        {Treasures.map((item, ind) => <JewelryItem key={`jewelry${ind}`} image={require(`../assets/img/png/jewelry-${ind+1}.jpg`)} name={item.name} price={item.price} />)}
                     </div>
                 </div>
             </div>
             <div className="bg-[#F2F2F2] mt-16">
-                <div className="container mx-auto px-12 py-12 max-sm:px-6 flex gap-12 items-center justify-center">
+                <div className="container mx-auto  px-12 py-12 max-sm:px-6 flex gap-12 items-center justify-center">
                     <div className="w-full flex flex-col gap-4 justify-center items-center">
                         <div className="flex flex-col gap-4 pt-12">
                             <p className="font-semibold text-3xl text-center">Get Our Latest Update In Your Email</p>

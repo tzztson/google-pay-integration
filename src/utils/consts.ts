@@ -11,7 +11,6 @@ import Ship_Icon from "../assets/img/svg/ship_icon.svg";
 import Clock_Icon from "../assets/img/svg/clock_icon.svg";
 import Phone_Icon from "../assets/img/svg/phone_icon.svg";
 import Jewelry_Woman from "../assets/img/svg/jewelry-woman.svg";
-import Fake_Jewelry_Woman from "../assets/img/png/jewelry-woman.png";
 import About_Jewelry_1 from "../assets/img/svg/about-jewelry-1.svg";
 import About_Jewelry_2 from "../assets/img/svg/about-jewelry-2.svg";
 import About_Jewelry_3 from "../assets/img/svg/about-jewelry-3.svg";
@@ -87,6 +86,21 @@ export const Treasures = [
     name: "Aphrodite Ring | 9ct Yellow Gold",
     price: 242,
   },
+  {
+    image: jewelry,
+    name: "Hexagon Solitaire Ring Sterling Silver",
+    price: 449,
+  },
+  {
+    image: jewelry,
+    name: "Selene Hoop Earrings",
+    price: 352,
+  },
+  {
+    image: jewelry,
+    name: "Aphrodite Ring | 9ct Yellow Gold",
+    price: 242,
+  },
 ];
 
 export {
@@ -103,7 +117,6 @@ export {
   Phone_Icon,
   Clock_Icon,
   Jewelry_Woman,
-  Fake_Jewelry_Woman,
   About_Jewelry_1,
   About_Jewelry_2,
   About_Jewelry_3,

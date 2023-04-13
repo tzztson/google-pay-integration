@@ -6,11 +6,11 @@ const Home = () => {
         <div>
             <div className="container mx-auto px-12 max-sm:px-6 py-12">
                 <div className="flex gap-12 items-center justify-center max-[480px]:flex-col relative">
-                   <div><img src={Home_Jewelry_Woman1} alt="" /></div>
-                   <div><img src={Home_Jewelry_Woman2} alt="" /></div>
-                   <div className="absolute bg-[#222222] px-6 py-2 text-white rounded text-2xl max-sm:top-1/3">
+                    <div><img src={Home_Jewelry_Woman1} alt="" /></div>
+                    <div><img src={Home_Jewelry_Woman2} alt="" /></div>
+                    <div className="absolute bg-[#222222] px-6 py-2 text-white rounded text-2xl max-sm:top-1/3">
                         Jade-NFT-Diamond
-                   </div>
+                    </div>
                 </div>
                 <div className="py-12 grid grid-cols-3 gap-6 max-xl:grid-cols-2 max-md:grid-cols-1">
                     <div className="flex flex-col gap-2">
@@ -53,7 +53,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="grid grid-cols-5 gap-4 max-xl:grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1">
-                        {Treasures.map((item, key) => <JewelryItem key={`-${key}`} image={item.image} name={item.name} price={item.price} />)}
+                        {Treasures.map((item, key) => <JewelryItem key={`item-${key}`} image={require(`../assets/img/png/jewelry-${key+1}.jpg`)} name={item.name} price={item.price} />)}
                     </div>
                 </div>
                 <div className="py-12 flex gap-12 max-md:flex-col">
